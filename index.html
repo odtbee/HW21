@@ -7,6 +7,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <title>The Crochet Collective</title>
   
@@ -43,30 +45,31 @@
   <h1 class="display-4 heroText">Welcome to the Crochet Collective!</h1>
   <p class="lead">We are an online crochet resource for beginners and up!</p>
   <hr class="my-4">
-  <a class="btn btn-primary btn-lg" href="#" role="button">Enter Site</a>
 </div>
-    <div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 2
+<!--Bios-->
+  <div class="spacer"></div>
+  <h1 class="aboutUs"> About Us</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col bioImg">
+        <img src="ASSETS/bio.jpg" style="width:100%; height:auto">
+      </div>
+    <div class="col profile">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est risus rhoncus scelerisque eleifend donec. Magna euismod mollis tellus quam nisi a turpis nisl, fermentum.
     </div>
-    <div class="col">
-      2 of 2
+    <div class="col bioImg">
+      <img src="ASSETS/bio2.jpg" style="width:100%;height: auto;">
+    </div>
+    <div class="col profile">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est risus rhoncus scelerisque eleifend donec. Magna euismod mollis tellus quam nisi a turpis nisl, fermentum.
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
   </div>
 </div>
-    <form>
+<!--CTA-->
+<div class="spacer"></div>
+  <form class="ctaForm">
+    <h1 class="formText">Subscribe for more content!</h1>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -76,47 +79,36 @@
     <label for="exampleInputPassword1">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary subscribe">Submit</button>
 </form>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+<!--Footer-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="ASSETS/logoipsum-logo-25.svg">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto socialGroup">
+    <li class="nav-item active">
+      <a class="fa fa-facebook" href="#"> <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item ">
+      <a class=" fa fa-youtube" href="#"><span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item ">
+      <a class="fa fa-pinterest" href="#"><span class="sr-only">(current)</span></a>
+    </li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
 </nav>
+  
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

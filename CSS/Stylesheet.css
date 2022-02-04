@@ -1,9 +1,76 @@
 /*hero*/
 .hero {
-    background-image: url("/HW21/ASSETS/anastasia-sogomonian-f1vPjvlE9Xs-unsplash.jpg");
+    background-image: url("/HW21/ASSETS/karina-l-ylhANXVV6Pk-unsplash.jpg");
+    background-size: cover;
     
     
 }
 .heroText {
-
+    color:white;
+}
+.lead {
+    color:white;
+}
+.enterButton {
+    margin: 0% 45% 0% 45%;
+    border-radius: 12px;
+    background-color: midnightblue;
+    border: 2px solid midnightblue;
+}
+.aboutUs{
+    margin: 3%;
+}
+.bioImg { 
+    width: 100%;
+    height: auto;
+}
+.profile {
+}
+.spacer {
+    width:100%;
+    height:50px;
+}
+.ctaForm {
+    background-image: url("/HW21/ASSETS/karen-penroz-06ZTGDcAQFs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.label {
+    text-align: center;
+}
+.form-group {
+    margin:3%;
+}
+.formText {
+    margin: 3%;
+}
+.subscribe {
+    margin: 0% 45% 0% 45%;
+    border-radius: 12px;
+    background-color: midnightblue;
+    border: 2px solid midnightblue;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.socialGroup {
+    margin: 0 auto
 }
