@@ -1,0 +1,41 @@
+body {
+    background-color: mistyrose;
+}
+.spacer {
+    width:100%;
+    height:50px;
+}
+.readMore {
+    margin:0% 45% 0% 45%;
+    border-radius: 12px;
+    background-color: midnightblue;
+    border: 2px solid midnightblue;
+}
+.infoImage {
+    width: fit-content;
+}
+/*footer*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.socialGroup {
+    margin: 0 auto
+}
